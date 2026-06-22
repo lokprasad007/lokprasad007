@@ -6,7 +6,11 @@ Welcome to my GitHub profile! I'm a developer who loves building web application
 
 Here is my GitHub contribution graph rendered as a Pac-Man game!
 
-![Pac-Man Contribution Graph](https://raw.githubusercontent.com/lokprasad007/lokprasad007/output/pacman.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lokprasad007/lokprasad007/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lokprasad007/lokprasad007/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/lokprasad007/lokprasad007/output/pacman-contribution-graph.svg">
+</picture>
 
 ---
 
