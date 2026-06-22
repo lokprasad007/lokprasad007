@@ -24,6 +24,47 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           games: pacman
 
+      - name: Apply Neon/Cyberpunk Theme to SVGs
+        shell: bash
+        run: |
+          cat << 'EOF' > apply_neon.py
+          import os
+          
+          dark_svg = 'dist/pacman-contribution-graph-dark.svg'
+          light_svg = 'dist/pacman-contribution-graph.svg'
+          
+          dark_replaces = {
+              '#0d1117': '#0c0f1d',
+              '#161b22': '#17192f',
+              '#0e4429': '#005273',
+              '#006d32': '#ff0055',
+              '#26a641': '#00c3ff',
+              '#39d353': '#ff00a0'
+          }
+          
+          light_replaces = {
+              '#ebedf0': '#f0f2f5',
+              '#9be9a8': '#9ee7ff',
+              '#40c463': '#ff9ebe',
+              '#30a14e': '#38c2ff',
+              '#216e39': '#ff3377'
+          }
+          
+          def apply(path, reps):
+              if not os.path.exists(path): return
+              with open(path, 'r', encoding='utf-8') as f:
+                  txt = f.read()
+              for o, n in reps.items():
+                  txt = txt.replace(o, n)
+                  txt = txt.replace(o.upper(), n)
+              with open(path, 'w', encoding='utf-8') as f:
+                  f.write(txt)
+          
+          apply(dark_svg, dark_replaces)
+          apply(light_svg, light_replaces)
+          EOF
+          python apply_neon.py
+
       - name: Push Pacman SVG to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
