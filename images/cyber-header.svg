@@ -58,7 +58,7 @@
     .text-line {
       font-family: 'Orbitron', 'Segoe UI', -apple-system, sans-serif;
       font-weight: 700;
-      fill: #fcee0a;
+      fill: #ff0055;
       filter: url(#glow);
       opacity: 0;
       text-anchor: middle;
