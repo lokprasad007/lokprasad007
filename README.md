@@ -13,15 +13,14 @@
 
 ---
 
-## 🕹️ SYSTEM CONTRIBUTIONS (3D GRID MATRIX)
+## 🕹️ SYSTEM CONTRIBUTIONS (PAC-MAN GRID)
 
 <p align="center">
-  <a href="https://lokprasad007.github.io/lokprasad007/3d-grid.html" target="_blank">
-    <img src="https://img.shields.io/badge/LAUNCH_3D_MATRIX-ONLINE-ff0055?style=for-the-badge&logo=opengl&logoColor=ff0055&labelColor=0c0f1d" height="45" alt="Launch 3D Grid" />
-  </a>
-</p>
-<p align="center">
-  <i>Click the terminal link above to initialize the interactive 3D WebGL contribution simulation.</i>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lokprasad007/lokprasad007/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lokprasad007/lokprasad007/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/lokprasad007/lokprasad007/output/pacman-contribution-graph.svg" width="100%">
+  </picture>
 </p>
 
 ---
