@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="./images/cyber-header.svg" width="100%" alt="Lok Prasad Header" />
-</p>
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=32&center=true&vCenter=true&width=650&height=70&duration=4000&lines=LOK+PRASAD;LEARNING+AND+TRYING+FOR+IMPACT;SYSTEMS+INITIATED...&color=ff0055" alt="Typing SVG" />
+</h1>
 
 <p align="center">
   <a href="https://github.com/lokprasad007">
