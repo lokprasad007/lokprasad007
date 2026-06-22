@@ -1,9 +1,5 @@
-<p align="center">
-  <img src="./images/cyberpunk-banner.png" width="100%" alt="Cyberpunk Banner" />
-</p>
-
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=LOK+PRASAD;CYBER+DEVELOPER;SYSTEMS+INITIATED...&color=ff0055" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=32&center=true&vCenter=true&width=650&height=70&duration=4000&lines=LOK+PRASAD;LEARNING+AND+TRYING+FOR+IMPACT;SYSTEMS+INITIATED...&color=ff0055" alt="Typing SVG" />
 </h1>
 
 <p align="center">
