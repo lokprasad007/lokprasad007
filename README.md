@@ -1,40 +1,57 @@
-# Hi there, I'm Lok Prasad! 👋
+<p align="center">
+  <img src="./images/cyberpunk-banner.png" width="100%" alt="Cyberpunk Banner" />
+</p>
 
-Welcome to my GitHub profile! I'm a developer who loves building web applications and exploring new technologies.
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=LOK+PRASAD;CYBER+DEVELOPER;SYSTEMS+INITIATED...&color=ff0055" alt="Typing SVG" />
+</h1>
 
-## 🕹️ My GitHub Arcade (Pac-Man)
-
-Here is my GitHub contribution graph rendered as a Pac-Man game!
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lokprasad007/lokprasad007/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lokprasad007/lokprasad007/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/lokprasad007/lokprasad007/output/pacman-contribution-graph.svg">
-</picture>
-
----
-
-## 🛠️ Technologies & Tools
-
-Here are some of the tools and technologies I work with:
-
-| Frontend | Backend | Databases | Dev Tools |
-| :--- | :--- | :--- | :--- |
-| HTML5, CSS3, JS | Node.js, Express | MongoDB, SQL | Git, GitHub |
-| React, TypeScript | Python | PostgreSQL | VS Code, NPM |
-
----
-
-## 📊 GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=lokprasad007&show_icons=true&theme=tokyonight" height="195" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lokprasad007&theme=tokyonight" height="195" alt="GitHub Streak Stats" />
+<p align="center">
+  <a href="https://github.com/lokprasad007">
+    <img src="https://img.shields.io/badge/GRID-ONLINE-00d2ff?style=flat-square&logo=git&logoColor=00d2ff&color=0c0f1d" alt="Grid Status" />
+  </a>
+  <a href="mailto:lokprasad007@users.noreply.github.com">
+    <img src="https://img.shields.io/badge/COMMS-ESTABLISHED-ff0055?style=flat-square&logo=gmail&logoColor=ff0055&color=0c0f1d" alt="Email Comms" />
+  </a>
 </p>
 
 ---
 
-## 💬 Connect With Me
+## 🕹️ SYSTEM CONTRIBUTIONS (PAC-MAN GRID)
 
-- 💻 Let's collaborate on interesting projects!
-- 📫 Reach out to me: **lokprasad007@users.noreply.github.com**
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lokprasad007/lokprasad007/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lokprasad007/lokprasad007/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/lokprasad007/lokprasad007/output/pacman-contribution-graph.svg" width="100%">
+  </picture>
+</p>
+
+---
+
+## 🛠️ TECH STACK / NEURAL INTERFACE
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-ff0055?style=for-the-badge&logo=html5&logoColor=white&labelColor=0c0f1d" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-00d2ff?style=for-the-badge&logo=css3&logoColor=white&labelColor=0c0f1d" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-ff0055?style=for-the-badge&logo=javascript&logoColor=white&labelColor=0c0f1d" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-00d2ff?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0c0f1d" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-ff0055?style=for-the-badge&logo=react&logoColor=white&labelColor=0c0f1d" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-00d2ff?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=0c0f1d" alt="NodeJS" />
+</p>
+
+---
+
+## 📊 CORE TELEMETRY
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=lokprasad007&show_icons=true&bg_color=0c0f1d&title_color=ff0055&text_color=00d2ff&icon_color=ff0055&border_color=00d2ff" height="195" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lokprasad007&background=0c0f1d&title=ff0055&currStreakNum=00d2ff&currStreakLabel=00d2ff&sideNums=00d2ff&sideLabels=00d2ff&dates=00d2ff&ring=ff0055&fire=ff0055&stroke=00d2ff" height="195" alt="GitHub Streak Stats" />
+</p>
+
+---
+
+## 📡 DECRYPTED TRANSMISSIONS
+
+- 💻 Seeking collaborations on advanced web applications and neural network projects.
+- 📨 Establish contact via encrypted node: **lokprasad007@users.noreply.github.com**
