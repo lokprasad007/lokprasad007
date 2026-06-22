@@ -6,7 +6,7 @@ Welcome to my GitHub profile! I'm a developer who loves building web application
 
 Here is my GitHub contribution graph rendered as a Pac-Man game!
 
-![Pac-Man Contribution Graph](https://raw.githubusercontent.com/lokprasad007/lokprasad007/output/pacman.svg)
+![Pac-Man Contribution Graph](https://raw.githubusercontent.com/lokprasad007/README.md/output/pacman.svg)
 
 ---
 
