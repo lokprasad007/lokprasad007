@@ -34,34 +34,49 @@ jobs:
           light_svg = 'dist/pacman-contribution-graph.svg'
           
           dark_replaces = {
-              '#0d1117': '#0c0f1d',
-              '#161b22': '#17192f',
-              '#0e4429': '#005273',
-              '#006d32': '#ff0055',
-              '#26a641': '#00c3ff',
-              '#39d353': '#ff00a0'
+              '#0d1117': '#0c0f1d',  # background
+              '#161b22': '#1f1115',  # empty cell (dark red-slate)
+              '#0e4429': '#4d0b13',  # Level 1 (deep crimson)
+              '#006d32': '#8a1225',  # Level 2 (medium red)
+              '#26a641': '#c81938',  # Level 3 (bright red)
+              '#39d353': '#ff2449'   # Level 4 (neon red)
           }
           
           light_replaces = {
-              '#ebedf0': '#f0f2f5',
-              '#9be9a8': '#9ee7ff',
-              '#40c463': '#ff9ebe',
-              '#30a14e': '#38c2ff',
-              '#216e39': '#ff3377'
+              '#ebedf0': '#faebeb',  # empty cell
+              '#9be9a8': '#ffccd1',  # Level 1
+              '#40c463': '#ffa1ac',  # Level 2
+              '#30a14e': '#ff6b7e',  # Level 3
+              '#216e39': '#ff334b'   # Level 4
           }
           
-          def apply(path, reps):
+          def apply(path, reps, is_dark):
               if not os.path.exists(path): return
               with open(path, 'r', encoding='utf-8') as f:
                   txt = f.read()
+              
+              # Apply contribution cell color replacements
               for o, n in reps.items():
                   txt = txt.replace(o, n)
                   txt = txt.replace(o.upper(), n)
+                  
+              # Apply wall color replacements
+              lines = txt.split('\n')
+              for i, line in enumerate(lines):
+                  if 'id="wh-' in line or 'id="wv-' in line:
+                      if is_dark:
+                          lines[i] = line.replace('fill="#ffffff"', 'fill="#ff003c"')
+                      else:
+                          lines[i] = line.replace('fill="#000000"', 'fill="#8a1225"') \
+                                         .replace('fill="#57606a"', 'fill="#8a1225"') \
+                                         .replace('fill="#ffffff"', 'fill="#8a1225"')
+              txt = '\n'.join(lines)
+              
               with open(path, 'w', encoding='utf-8') as f:
                   f.write(txt)
           
-          apply(dark_svg, dark_replaces)
-          apply(light_svg, light_replaces)
+          apply(dark_svg, dark_replaces, is_dark=True)
+          apply(light_svg, light_replaces, is_dark=False)
           EOF
           python apply_neon.py
 
