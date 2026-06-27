@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="images/banner.gif" alt="Banner" width="100%" />
-</p>
-
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=32&center=true&vCenter=true&width=650&height=70&duration=4000&lines=LOK+PRASAD;LEARNING+AND+TRYING+FOR+IMPACT;SYSTEMS+INITIATED...&color=ff003c" alt="Typing SVG" />
 </h1>
